@@ -16,7 +16,7 @@ export class APIService {
 
 
   selectedUserId = 0;
-  baseUrl: string = "http://localhost:8081";
+  baseUrl: string = "https://janolampaerthogent-notesapp-backend.glitch.me/";
   headers = new HttpHeaders({'Content-Type': 'application/json'});
 
   constructor(
